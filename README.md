@@ -39,7 +39,7 @@
 | Facturación | DAT-01, COM-01, HW-01 | Administración |
 | Sostenimiento técnico | INF-01, BKP-01, MON-01, SW-03, IAM-01 | Tecnología/IT |
 
-**Hechos, supuestos y propuestas.** Es un *hecho documentado* que estos activos existen y la función que cumplen. Es un *supuesto* que contienen datos de personas y que existe una cuenta con privilegios de administración. **No** se sabe qué controles existen hoy (autenticación multifactor, cifrado de copias, etc.); su ausencia en la documentación no demuestra incumplimiento.
+**Hechos, supuestos y propuestas.** Es un *hecho documentado* que estos activos existen y la función que cumplen. Es un *supuesto* que contienen datos de personas y que existen cuentas con privilegios de administración. **No** se sabe qué controles existen hoy (autenticación multifactor, cifrado de copias, etc.); su ausencia en la documentación no demuestra incumplimiento.
 
 ---
 
@@ -73,7 +73,7 @@ Los principios orientan las decisiones de seguridad. Las reglas concretas para e
 
 ### 1.3. Normativa de protección del puesto de trabajo
 
-**Ámbito de aplicación (propuesta).** La normativa se aplica a **las 20 personas de la plantilla** (Dirección, Operaciones, Atención al Cliente, Tecnología/IT, Comercial, Administración y la persona en prácticas) y a cualquier persona externa con acceso a los sistemas o a la oficina de Logisticfy. Se aplica a los equipos HW-01, a SW-01, SW-02, COM-01, a los datos de DAT-01 y a los espacios de PHY-01.
+**Ámbito de aplicación (propuesta).** La normativa se aplica a **las 20 personas de la plantilla** (Dirección, Operaciones, Atención al Cliente, Tecnología/IT, Comercial, Administración y la persona en prácticas) y a cualquier persona externa con acceso a los sistemas o a la oficina de Logisticfy. Se aplica a los equipos HW-01, a las aplicaciones SW-01 y SW-02, al correo COM-01, a las cuentas y accesos IAM-01, a los datos de DAT-01 y sus copias BKP-01, a los registros MON-01 y a los espacios de PHY-01.
 
 **Responsabilidades generales (propuesta).**
 
@@ -107,7 +107,7 @@ Los principios orientan las decisiones de seguridad. Las reglas concretas para e
 | **Comunicaciones** | | | | |
 | N-13 | Se usa **solo el correo corporativo** (COM-01) y los canales acordados para tratar con clientes y transportistas. **Nunca** se envían contraseñas, y los datos sensibles se envían solo al destinatario verificado. | Todo el personal | *Aplicación:* revisión de destinatarios antes de enviar. *Comprobación:* muestreo de comunicaciones e incidencias de envío erróneo. | Canal alternativo: autorización del responsable de área. |
 | N-14 | **Ante un correo o llamada con petición inusual** (cambio de IBAN, datos de acceso, urgencia, enlaces o archivos inesperados) se **verifica por un segundo canal** (llamada a un teléfono ya conocido) antes de actuar. **No** se hace clic en enlaces sospechosos. | Administración, Atención al Cliente, Comercial, Operaciones, Dirección | *Aplicación:* procedimiento de verificación en la guía M-01. *Comprobación:* simulacros y registro de los casos comunicados. | Ninguna para cambios de datos de pago. |
-| N-15 | Los **transportistas** acceden solo mediante SW-02 con las credenciales asignadas; se les comparte únicamente la información necesaria para el envío. | Operaciones, IT, desarrollador | *Aplicación:* credenciales individuales por transportista. *Comprobación:* revisión semestral de accesos e integraciones. | Cualquier nuevo canal con un transportista requiere la aprobación de IT. |
+| N-15 | Los **transportistas** acceden solo mediante SW-02 con las credenciales asignadas; se les comparte únicamente la información necesaria para el envío. | Operaciones, Tecnología/IT (incluido el desarrollador) | *Aplicación:* credenciales individuales por transportista. *Comprobación:* revisión semestral de accesos e integraciones. | Cualquier nuevo canal con un transportista requiere la aprobación de IT. |
 | **Seguridad física** | | | | |
 | N-16 | **Control de acceso físico:** las visitas se registran, van acompañadas y no se dejan solas en zonas de trabajo. Las puertas no se dejan abiertas y no se permite entrar a desconocidos detrás de uno mismo. | Todo el personal | *Aplicación:* registro de visitas. *Comprobación:* revisión mensual del registro. | Accesos de proveedores: acordados previamente con el responsable de IT. |
 | N-17 | **Mesa limpia:** al terminar la jornada no se dejan documentos con datos, notas con contraseñas ni dispositivos sin vigilancia a la vista. | Todo el personal | *Aplicación:* hábito de cierre. *Comprobación:* ronda de fin de jornada. | Ninguna. |
