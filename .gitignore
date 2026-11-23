@@ -1,0 +1,4 @@
+# Borradores y archivos locales: no se suben a GitHub
+draft/
+*.odt
+*.bak
