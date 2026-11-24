@@ -124,7 +124,181 @@ Los principios orientan las decisiones de seguridad. Las reglas concretas para e
 - **Revisión.** La normativa se revisa **una vez al año** o ante un cambio relevante (incidente, nuevo sistema, nuevo transportista o cambios de plantilla). Las versiones se numeran y el cambio se comunica al personal.
 - **Alcance de la comprobación.** Las comprobaciones indicadas son propuestas de seguimiento. La auditoría efectiva del cumplimiento queda para AEA2.
 
+---
+
+## 2. Programa de concienciación
+
+### 2.1. Objetivos y destinatarios
+
+| ID | Conducta o conocimiento que se pretende mejorar | Departamento o perfil | Relación con las necesidades de Logisticfy |
+|---|---|---|---|
+| O-01 | **Reconocer y comunicar correos, llamadas y mensajes sospechosos** (phishing, fraude de pagos, suplantación de clientes o transportistas) y verificar por un segundo canal. | Atención al Cliente, Administración, Comercial, Operaciones, Dirección; también la persona en prácticas | Estas áreas manejan a diario COM-01 y recibirían la mayoría de los intentos de engaño; Administración, además, trabaja con datos de facturación (DAT-01). |
+| O-02 | **Gestionar contraseñas y cuentas de forma segura** (cuenta personal, contraseñas únicas, gestor y MFA). | Todo el personal | Una cuenta comprometida da acceso a SW-01 y DAT-01 (IAM-01). |
+| O-03 | **Tratar los datos de clientes y envíos con el criterio de necesidad** (no copiar, no enviar a destinatarios no verificados, clasificar). | Operaciones, Atención al Cliente, Administración, Comercial | Estas áreas manejan datos de clientes, destinatarios y facturación (DAT-01). |
+| O-04 | **Aplicar las medidas técnicas y de acceso del puesto** (equipos, privilegios, copias, integraciones con transportistas, registros). | Tecnología/IT (responsable, administrador, desarrollador, persona en prácticas) | IT sostiene INF-01, BKP-01, MON-01, SW-02 y SW-03, y tiene los privilegios más altos. |
+| O-05 | **Comunicar rápido las anomalías y actuar con calma** (qué hacer y qué no hacer). | Todo el personal | La detección temprana limita el impacto de cualquier incidente (MON-01, norma N-18). |
+| O-06 | **Respaldar y dar ejemplo** (conocer los principios, autorizar excepciones con criterio). | Dirección y responsables de área | Sin el respaldo visible de Dirección el resto de acciones pierde eficacia (P-08). |
+
+**Justificación.** Los objetivos priorizan los comportamientos con más impacto en el ciclo de la expedición. Atención al Cliente, Administración y Comercial están más expuestas al engaño por correo; Operaciones y Administración tratan los datos; IT concentra los privilegios técnicos; la persona en prácticas recibe formación inicial y supervisión. Dirección actúa como patrocinadora. Todos los objetivos son *observables*.
+
+### 2.2. Plan de acciones de concienciación
+
+| ID | Objetivo | Destinatarios | Acción y canal | Temporalización | Responsable | Material |
+|---|---|---|---|---|---|---|
+| A-01 | O-01, O-05 | Todo el personal, con ejemplos específicos para Atención al Cliente, Administración y Comercial | **Taller presencial «Reconoce y comunica»** de 60 minutos: presentación de la normativa, casos reales ficticios de Logisticfy y cuestionario final. Se reparte la guía de bolsillo. Presencial, en la sala de reuniones. | Semana 1 del programa; se repite en una sesión corta para nuevas incorporaciones | Responsable de IT | **M-01** (guía de bolsillo y cuestionario) |
+| A-02 | O-02 | Todo el personal | **Sesión práctica de 30 minutos:** configurar el gestor de contraseñas y activar MFA con ayuda de IT. | Semana 2 | Responsable de IT y administrador de sistemas | Guía paso a paso (a desarrollar) |
+| A-03 | O-03 | Operaciones, Atención al Cliente, Administración, Comercial | **Microformación de 20 minutos** sobre clasificación y tratamiento de datos, con 3 casos prácticos (envío al destinatario equivocado, copia en USB, consulta innecesaria). | Semana 3 | Responsables de área, con apoyo de IT | Presentación breve y casos (a desarrollar) |
+| A-04 | O-04 | Tecnología/IT | **Sesión técnica de 90 minutos:** revisión de permisos, prueba de restauración de BKP-01, buenas prácticas de integración con transportistas y revisión de registros de MON-01. | Semana 4; la prueba de restauración se repite cada trimestre | Responsable de IT | Lista de comprobación (a desarrollar) |
+| A-05 | O-01, O-05 | Todo el personal | **Simulacro de correo sospechoso** inofensivo (ficticio) y recordatorio mensual por correo interno de 5 líneas. | Un simulacro trimestral; recordatorio mensual | Responsable de IT | Plantilla de simulacro y recordatorios (a desarrollar) |
+| A-06 | O-06 | Dirección y responsables de área | **Reunión de 30 minutos** para presentar principios y normativa, y registrar el respaldo (ver 1.2). | Antes de la Semana 1 | Responsable de IT, con el CEO | Resumen de una página (a desarrollar) |
+
+*Solo se desarrolla M-01 en el Bloque 03. Los demás materiales quedan como previstos.*
+
+### 2.3. Seguimiento y evaluación del programa
+
+*(Diseño del seguimiento; no hay resultados, porque el programa no se ha ejecutado.)*
+
+| Objetivo / acción | Qué se medirá (indicador) | Cómo se comprobaría (evidencia) | Cuándo |
+|---|---|---|---|
+| O-01 / A-01 | % de asistentes que superan el cuestionario (≥ 80 % de aciertos) | Resultados del cuestionario de M-01; hoja de asistencia | Al finalizar el taller |
+| O-01 / A-05 | % de personas que comunican el simulacro; % que pulsan el enlace; tiempo medio hasta el aviso | Registro del buzón de avisos y del simulacro | Tras cada simulacro (trimestral) |
+| O-02 / A-02 | % de cuentas con MFA y con gestor de contraseñas | Informe de IT por cuenta | Al mes de la sesión, y semestral |
+| O-03 / A-03 | Número de incidentes por envío erróneo o copia no autorizada; resultado de los casos prácticos | Registro de incidencias; revisión de accesos y exportaciones (MON-01) | Trimestral |
+| O-04 / A-04 | Prueba de restauración realizada y superada; permisos revisados | Acta de la prueba; informe de permisos | Trimestral |
+| O-05 | Número de avisos de anomalías y tiempo entre la detección y el aviso | Registro de avisos | Trimestral |
+| O-06 / A-06 | Respaldo de Dirección registrado y comunicado | Acta firmada y correo de comunicación | Una vez, y revisión anual |
+| Satisfacción | Utilidad percibida (escala 1–5) | Mini encuesta anónima tras cada acción | Tras cada acción |
+
+**Revisión y mejora.** Cada trimestre el responsable de IT presentaría a Dirección un informe de una página con los indicadores. Si un indicador no alcanza el umbral (por ejemplo, aprobados < 80 % o más del 20 % de clics en un simulacro), se repetiría la acción con otro formato, se reforzaría el mensaje en el equipo afectado y se ajustarían los contenidos con los casos comunicados. Una vez al año se revisaría el programa completo junto con la normativa.
 
 ---
 
-> **Estado de la entrega:** este commit incluye el **Bloque 01 (Marco de protección)**. El Bloque 02 (Programa de concienciación), el Bloque 03 (Material M-01) y el apartado 4 (Fuentes, supuestos y autoría) se añadirán en el siguiente commit.
+## 3. Desarrollo del material de concienciación
+
+### 3.1. Material desarrollado
+
+- **ID del material:** M-01
+- **Título:** «Guía de bolsillo: reconoce, verifica y comunica» (Logisticfy)
+- **Formato:** guía breve de una página, más cuestionario con soluciones (texto en Markdown), para uso impreso y digital
+
+#### Contenido del material
+
+---
+
+##### GUÍA DE BOLSILLO · Reconoce, verifica y comunica
+
+**Para:** todo el personal de Logisticfy (en especial Atención al Cliente, Administración, Comercial y Operaciones)
+**Versión:** 1.0 (ficticia, para formación) · **Contacto de seguridad:** responsable de IT (buzón de avisos de seguridad)
+
+###### 1. ¿Por qué nos importa?
+
+Cada día recibimos correos y llamadas de clientes, transportistas y proveedores sobre envíos, incidencias y facturas. Los delincuentes se aprovechan de ello. Un solo clic o una sola transferencia equivocada pueden dar acceso a datos de clientes o provocar pérdidas económicas. **No hace falta ser técnico: hace falta parar un momento.**
+
+###### 2. Las 5 señales de alarma
+
+| # | Señal | Ejemplo en Logisticfy |
+|---|---|---|
+| 1 | **Urgencia o presión** | «El envío queda retenido si no confirmas hoy los datos de pago». |
+| 2 | **Remitente que no cuadra** | El correo dice ser de un transportista, pero la dirección tiene una letra cambiada (`transp0rtista.com`). |
+| 3 | **Petición inusual** | «Ha cambiado nuestro IBAN, factura a esta cuenta a partir de ahora». |
+| 4 | **Enlace o adjunto inesperado** | Una «factura» o «albarán» que nadie ha solicitado. |
+| 5 | **Petición de credenciales o códigos** | «Introduce tu usuario y contraseña para ver la incidencia». *Nadie legítimo pide tu contraseña ni el código MFA.* |
+
+###### 3. Qué hacer: la regla PARA-VERIFICA-AVISA
+
+1. **PARA.** No hagas clic, no abras el adjunto, no respondas, no hagas la transferencia.
+2. **VERIFICA por otro canal.** Llama al **teléfono que ya tienes registrado** del cliente o transportista (nunca el que aparece en el mensaje sospechoso).
+3. **AVISA.** Comunica el caso al responsable de IT (buzón de avisos). Reenvía el correo como adjunto y cuenta qué hiciste. **Avisar siempre es mejor que callar, y nadie será sancionado por comunicar de buena fe.**
+
+###### 4. Si ya has hecho clic o has dado datos
+
+- **No te asustes ni borres nada.**
+- Desconecta el equipo de la red (cable o Wi-Fi) si puedes.
+- Avisa de inmediato al responsable de IT. Cuanto antes se sepa, menos daño.
+- Si has escrito una contraseña, **cámbiala** desde otro equipo cuando IT lo indique.
+
+###### 5. Tres casos de Logisticfy
+
+**Caso A — Administración.** Llega un correo de un cliente: «Hemos cambiado de banco; haz el próximo reembolso a este IBAN». → *Verifica llamando al teléfono registrado. No cambies datos de pago por correo.*
+
+**Caso B — Atención al Cliente.** Un supuesto destinatario llama pidiendo la dirección de entrega y el nombre de contacto de otro cliente «para recoger el paquete». → *No des datos si no puedes comprobar que es el cliente titular; consulta con Operaciones.*
+
+**Caso C — Operaciones.** Un correo de «Transportes Rápidos» (nombre ficticio) pide credenciales de SW-02 «para actualizar la integración». → *Las credenciales no se envían nunca por correo; avisa a IT.*
+
+###### 6. Cinco hábitos cada día
+
+1. Mi cuenta es **personal**; mi contraseña, **única**, y el **MFA**, activado.
+2. **Bloqueo** el equipo (Windows + L) siempre que me levanto.
+3. Solo uso el **correo corporativo** y las herramientas autorizadas.
+4. Los datos de clientes **no salen** de los sistemas corporativos.
+5. **Ante la duda, pregunto.**
+
+*Normas relacionadas: N-01, N-02, N-03, N-07, N-09, N-13, N-14, N-18, N-19.*
+
+---
+
+##### CUESTIONARIO FINAL (10 preguntas, 10 minutos)
+
+*Marca una opción por pregunta. Aprobado: 8 aciertos o más.*
+
+1. Recibes un correo de un cliente que te pide cambiar el IBAN de pago. ¿Qué haces?
+   a) Lo cambio, porque el cliente lo pide. b) Respondo al correo para confirmar. c) Llamo al teléfono que ya tengo registrado del cliente y verifico. d) Lo reenvío a un compañero.
+2. ¿Cuál es una señal típica de phishing?
+   a) Un saludo con tu nombre. b) Urgencia y presión para actuar ya. c) Un mensaje de un compañero conocido. d) Un correo sin adjuntos.
+3. ¿Puede alguien legítimo (IT o un proveedor) pedirte tu contraseña o el código MFA?
+   a) Sí, si es urgente. b) Sí, si es de IT. c) No, nunca. d) Solo por teléfono.
+4. Has hecho clic en un enlace sospechoso. ¿Qué haces primero?
+   a) Borro el correo y sigo trabajando. b) Aviso a IT de inmediato, sin borrar nada. c) Espero a ver si pasa algo. d) Lo comento por el chat personal.
+5. ¿Dónde se guarda el trabajo con datos de clientes?
+   a) En un USB personal. b) En el escritorio del equipo. c) En los repositorios corporativos. d) En mi nube personal.
+6. Una persona llama pidiendo los datos de entrega de un envío que no es suyo. ¿Qué haces?
+   a) Se los doy, parece amable. b) No los doy y consulto con Operaciones. c) Se los envío por mensajería personal. d) Se los doy si me da su nombre.
+7. Te vas a tomar un café. ¿Qué haces con el equipo?
+   a) Nada, vuelvo enseguida. b) Lo bloqueo (Windows + L). c) Apago la pantalla. d) Pido a un compañero que lo vigile.
+8. Una visita espera sola en la zona de trabajo. ¿Qué haces?
+   a) Nada. b) La acompaño o aviso a quien la espera. c) Le doy la clave del Wi-Fi interno. d) La dejo usar un equipo.
+9. ¿Qué contraseña es mejor para un servicio corporativo?
+   a) La misma que uso en casa. b) Una larga, única y guardada en el gestor autorizado. c) El nombre de la empresa con un número. d) Una nota pegada en el monitor.
+10. Si comunico de buena fe un correo que resulta ser legítimo, ¿qué pasa?
+    a) Me sancionan. b) No pasa nada: avisar siempre es correcto. c) Me lo recuerdan en la reunión. d) Se anota en mi expediente.
+
+**Soluciones:** 1-c · 2-b · 3-c · 4-b · 5-c · 6-b · 7-b · 8-b · 9-b · 10-b
+
+**Cómo se utiliza en la sesión (resumen para quien dirige la acción):** (1) 10 min: presentación de las cinco señales; (2) 20 min: los tres casos, por grupos, con la regla PARA-VERIFICA-AVISA; (3) 10 min: puesta en común y dudas; (4) 10 min: cuestionario individual; (5) 10 min: corrección y entrega de la guía impresa.
+
+---
+
+### 3.2. Vinculación con el programa
+
+- **Objetivo relacionado:** O-01 (con apoyo en O-05)
+- **Acción relacionada:** A-01 — Taller presencial «Reconoce y comunica»
+- **Destinatarios:** todo el personal de Logisticfy, con casos adaptados a Atención al Cliente, Administración, Comercial y Operaciones; la persona en prácticas
+- **Canal:** taller presencial de 60 minutos; la guía se reparte impresa (una página) y se publica en el repositorio corporativo y por correo interno
+- **Uso previsto:** se proyecta en el taller. Las secciones 2 y 3 se explican de forma guiada, los casos de la sección 5 se trabajan en grupos, el cuestionario mide el resultado del indicador de O-01 (apartado 2.3), y la guía queda como recordatorio en el puesto de trabajo.
+- **Ubicación del archivo:** integrado en este documento (apartado 3.1); no hay archivos adjuntos
+
+---
+
+## 4. Fuentes, supuestos y autoría
+
+### 4.1. Fuentes y recursos utilizados
+
+| Fuente | Apartado | Información utilizada |
+|---|---|---|
+| [PE 90.1] Logisticfy | Descripción, organización, funcionamiento del negocio, sistemas, inventario de activos | Procesos, plantilla (20 personas), activos y sus ID, tres transportistas |
+| [PE 90.1] Briefing, Actividades, Plantilla y Rúbrica | Todos | Estructura, requisitos y criterios de la entrega |
+| Conocimiento general de buenas prácticas de seguridad | n. d. | Ideas habituales (mínimo privilegio, MFA, copias y restauración, phishing); redactadas con palabras propias y adaptadas a Logisticfy |
+
+No se han utilizado datos personales reales ni credenciales. Todos los nombres de empresa del material son ficticios.
+
+### 4.2. Supuestos y limitaciones
+
+- **Supuesto:** existe un responsable de IT que puede actuar como coordinador y una persona de Dirección que firma las actas.
+- **Supuesto:** los activos contienen datos de personas (contactos y destinatarios), como indica la documentación de forma genérica.
+- **Desconocido:** no se conocen los controles técnicos actuales (MFA, cifrado, políticas de contraseñas), por lo que las normas se formulan como *propuestas*, sin afirmar incumplimientos.
+- **Limitación:** la arquitectura es conceptual (sin IP, versiones ni configuraciones); la normativa no se apoya en configuraciones concretas.
+- **Limitación:** los plazos del programa son relativos (semanas), pues no se fija una fecha de inicio. No se presentan resultados de concienciación.
+
+### 4.3. Autoría y revisiones
+
+El trabajo es de Volodymyr Osebchuk. **Decisiones propias:** el enfoque general, la elección del material M-01 y la revisión final de todo el contenido. **Apoyo utilizado:** asistente de IA (Claude, de Anthropic) para redactar y estructurar el borrador, que he revisado, adaptado y comprobado con la documentación *[PE 90.1] Logisticfy* (identificadores de activos y coherencia entre principios, normas, objetivos, acciones y material: P ↔ N ↔ O ↔ A ↔ M-01).
