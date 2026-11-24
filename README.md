@@ -185,16 +185,16 @@ Los principios orientan las decisiones de seguridad. Las reglas concretas para e
 
 ---
 
-##### GUÍA DE BOLSILLO · Reconoce, verifica y comunica
+#### GUÍA DE BOLSILLO · Reconoce, verifica y comunica
 
 **Para:** todo el personal de Logisticfy (en especial Atención al Cliente, Administración, Comercial y Operaciones)
 **Versión:** 1.0 (ficticia, para formación) · **Contacto de seguridad:** responsable de IT (buzón de avisos de seguridad)
 
-###### 1. ¿Por qué nos importa?
+**1. ¿Por qué nos importa?**
 
 Cada día recibimos correos y llamadas de clientes, transportistas y proveedores sobre envíos, incidencias y facturas. Los delincuentes se aprovechan de ello. Un solo clic o una sola transferencia equivocada pueden dar acceso a datos de clientes o provocar pérdidas económicas. **No hace falta ser técnico: hace falta parar un momento.**
 
-###### 2. Las 5 señales de alarma
+**2. Las 5 señales de alarma**
 
 | # | Señal | Ejemplo en Logisticfy |
 |---|---|---|
@@ -204,20 +204,20 @@ Cada día recibimos correos y llamadas de clientes, transportistas y proveedores
 | 4 | **Enlace o adjunto inesperado** | Una «factura» o «albarán» que nadie ha solicitado. |
 | 5 | **Petición de credenciales o códigos** | «Introduce tu usuario y contraseña para ver la incidencia». *Nadie legítimo pide tu contraseña ni el código MFA.* |
 
-###### 3. Qué hacer: la regla PARA-VERIFICA-AVISA
+**3. Qué hacer: la regla PARA-VERIFICA-AVISA**
 
 1. **PARA.** No hagas clic, no abras el adjunto, no respondas, no hagas la transferencia.
 2. **VERIFICA por otro canal.** Llama al **teléfono que ya tienes registrado** del cliente o transportista (nunca el que aparece en el mensaje sospechoso).
 3. **AVISA.** Comunica el caso al responsable de IT (buzón de avisos). Reenvía el correo como adjunto y cuenta qué hiciste. **Avisar siempre es mejor que callar, y nadie será sancionado por comunicar de buena fe.**
 
-###### 4. Si ya has hecho clic o has dado datos
+**4. Si ya has hecho clic o has dado datos**
 
 - **No te asustes ni borres nada.**
 - Desconecta el equipo de la red (cable o Wi-Fi) si puedes.
 - Avisa de inmediato al responsable de IT. Cuanto antes se sepa, menos daño.
 - Si has escrito una contraseña, **cámbiala** desde otro equipo cuando IT lo indique.
 
-###### 5. Tres casos de Logisticfy
+**5. Tres casos de Logisticfy**
 
 **Caso A — Administración.** Llega un correo de un cliente: «Hemos cambiado de banco; haz el próximo reembolso a este IBAN». → *Verifica llamando al teléfono registrado. No cambies datos de pago por correo.*
 
@@ -225,7 +225,7 @@ Cada día recibimos correos y llamadas de clientes, transportistas y proveedores
 
 **Caso C — Operaciones.** Un correo de «Transportes Rápidos» (nombre ficticio) pide credenciales de SW-02 «para actualizar la integración». → *Las credenciales no se envían nunca por correo; avisa a IT.*
 
-###### 6. Cinco hábitos cada día
+**6. Cinco hábitos cada día**
 
 1. Mi cuenta es **personal**; mi contraseña, **única**, y el **MFA**, activado.
 2. **Bloqueo** el equipo (Windows + L) siempre que me levanto.
@@ -237,7 +237,7 @@ Cada día recibimos correos y llamadas de clientes, transportistas y proveedores
 
 ---
 
-##### CUESTIONARIO FINAL (10 preguntas, 10 minutos)
+#### CUESTIONARIO FINAL (10 preguntas, 10 minutos)
 
 *Marca una opción por pregunta. Aprobado: 8 aciertos o más.*
 
