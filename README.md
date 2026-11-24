@@ -187,7 +187,7 @@ Los principios orientan las decisiones de seguridad. Las reglas concretas para e
 
 #### GUÍA DE BOLSILLO · Reconoce, verifica y comunica
 
-**Para:** todo el personal de Logisticfy (en especial Atención al Cliente, Administración, Comercial y Operaciones)
+**Para:** todo el personal de Logisticfy (en especial Atención al Cliente, Administración, Comercial y Operaciones)  
 **Versión:** 1.0 (ficticia, para formación) · **Contacto de seguridad:** responsable de IT (buzón de avisos de seguridad)
 
 **1. ¿Por qué nos importa?**
@@ -242,25 +242,55 @@ Cada día recibimos correos y llamadas de clientes, transportistas y proveedores
 *Marca una opción por pregunta. Aprobado: 8 aciertos o más.*
 
 1. Recibes un correo de un cliente que te pide cambiar el IBAN de pago. ¿Qué haces?
-   a) Lo cambio, porque el cliente lo pide. b) Respondo al correo para confirmar. c) Llamo al teléfono que ya tengo registrado del cliente y verifico. d) Lo reenvío a un compañero.
+   - a) Lo cambio, porque el cliente lo pide.
+   - b) Respondo al correo para confirmar.
+   - c) Llamo al teléfono que ya tengo registrado del cliente y verifico.
+   - d) Lo reenvío a un compañero.
 2. ¿Cuál es una señal típica de phishing?
-   a) Un saludo con tu nombre. b) Urgencia y presión para actuar ya. c) Un mensaje de un compañero conocido. d) Un correo sin adjuntos.
+   - a) Un saludo con tu nombre.
+   - b) Urgencia y presión para actuar ya.
+   - c) Un mensaje de un compañero conocido.
+   - d) Un correo sin adjuntos.
 3. ¿Puede alguien legítimo (IT o un proveedor) pedirte tu contraseña o el código MFA?
-   a) Sí, si es urgente. b) Sí, si es de IT. c) No, nunca. d) Solo por teléfono.
+   - a) Sí, si es urgente.
+   - b) Sí, si es de IT.
+   - c) No, nunca.
+   - d) Solo por teléfono.
 4. Has hecho clic en un enlace sospechoso. ¿Qué haces primero?
-   a) Borro el correo y sigo trabajando. b) Aviso a IT de inmediato, sin borrar nada. c) Espero a ver si pasa algo. d) Lo comento por el chat personal.
+   - a) Borro el correo y sigo trabajando.
+   - b) Aviso a IT de inmediato, sin borrar nada.
+   - c) Espero a ver si pasa algo.
+   - d) Lo comento por el chat personal.
 5. ¿Dónde se guarda el trabajo con datos de clientes?
-   a) En un USB personal. b) En el escritorio del equipo. c) En los repositorios corporativos. d) En mi nube personal.
+   - a) En un USB personal.
+   - b) En el escritorio del equipo.
+   - c) En los repositorios corporativos.
+   - d) En mi nube personal.
 6. Una persona llama pidiendo los datos de entrega de un envío que no es suyo. ¿Qué haces?
-   a) Se los doy, parece amable. b) No los doy y consulto con Operaciones. c) Se los envío por mensajería personal. d) Se los doy si me da su nombre.
+   - a) Se los doy, parece amable.
+   - b) No los doy y consulto con Operaciones.
+   - c) Se los envío por mensajería personal.
+   - d) Se los doy si me da su nombre.
 7. Te vas a tomar un café. ¿Qué haces con el equipo?
-   a) Nada, vuelvo enseguida. b) Lo bloqueo (Windows + L). c) Apago la pantalla. d) Pido a un compañero que lo vigile.
+   - a) Nada, vuelvo enseguida.
+   - b) Lo bloqueo (Windows + L).
+   - c) Apago la pantalla.
+   - d) Pido a un compañero que lo vigile.
 8. Una visita espera sola en la zona de trabajo. ¿Qué haces?
-   a) Nada. b) La acompaño o aviso a quien la espera. c) Le doy la clave del Wi-Fi interno. d) La dejo usar un equipo.
+   - a) Nada.
+   - b) La acompaño o aviso a quien la espera.
+   - c) Le doy la clave del Wi-Fi interno.
+   - d) La dejo usar un equipo.
 9. ¿Qué contraseña es mejor para un servicio corporativo?
-   a) La misma que uso en casa. b) Una larga, única y guardada en el gestor autorizado. c) El nombre de la empresa con un número. d) Una nota pegada en el monitor.
+   - a) La misma que uso en casa.
+   - b) Una larga, única y guardada en el gestor autorizado.
+   - c) El nombre de la empresa con un número.
+   - d) Una nota pegada en el monitor.
 10. Si comunico de buena fe un correo que resulta ser legítimo, ¿qué pasa?
-    a) Me sancionan. b) No pasa nada: avisar siempre es correcto. c) Me lo recuerdan en la reunión. d) Se anota en mi expediente.
+    - a) Me sancionan.
+    - b) No pasa nada: avisar siempre es correcto.
+    - c) Me lo recuerdan en la reunión.
+    - d) Se anota en mi expediente.
 
 **Soluciones:** 1-c · 2-b · 3-c · 4-b · 5-c · 6-b · 7-b · 8-b · 9-b · 10-b
 
